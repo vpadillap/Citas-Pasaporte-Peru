@@ -22,8 +22,6 @@ Este script en Python te ayuda a encontrar citas disponibles para obtener tu pas
     ```
     requests
     twocaptcha
-    smtplib
-    ssl
     json
     time
     ```
@@ -31,7 +29,7 @@ Este script en Python te ayuda a encontrar citas disponibles para obtener tu pas
     Puedes instalar estas bibliotecas usando pip:
 
     ```bash
-    pip install requests twocaptcha smtplib ssl json time
+    pip install requests twocaptcha json time
     ```
 
 * **Cuenta 2Captcha:** Regístrate para obtener una cuenta gratuita en [https://2captcha.com/](https://2captcha.com/) y obtén tu clave API.
