@@ -59,8 +59,6 @@ def EmailReport():
     except Exception as e:
         # Print any error messages to stdout
         print(e)
-    finally:
-        server.quit() 
 
 if __name__ == "__main__":
 
@@ -87,6 +85,7 @@ if __name__ == "__main__":
             disponibilidad = disponibilidad + 1
 
     if disponibilidad > 0:
+        reporte = reporte.encode('utf-8')
         print(f"Hay disponibilidad en {disponibilidad} sede(s)" )
         print("Enviando correo...")
         EmailReport()
